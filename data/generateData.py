@@ -1,4 +1,6 @@
 import random
+import pandas as pd
+#https://datatofish.com/convert-text-file-to-csv-using-python-tool-included/
 
 # Function to generate a random array
 def generate_random_array():
@@ -14,3 +16,8 @@ with open("../random_arrays.txt", "w") as file:
         array = generate_random_array()
         array_str = ' '.join(map(str, array)) # Convert the array to a string
         file.write(f"{array_str}\n")
+
+
+#convert to csv
+read_file = pd.read_csv(r'data/random_arrays.txt')
+read_file.to_csv(r'data/random_arrays.csv', index=None)
