@@ -1,10 +1,9 @@
-<html>
 <head>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
 <script>
-    let data = [21, 44, 68, 6, 12]; // Modify data array
+    let data = [67,39,27,75,78,77,84,66,55]; // Modify data array
     function generateFeatureLabels(dataArray) {
         let features = [];
         let numFeatures = dataArray.length;
@@ -116,19 +115,16 @@
         .attr("stroke-opacity", 1)
         .attr("opacity", 0.5);
 
-    // Highlight the two middle points with red dots
-    let middleIndex1 = Math.floor(data.length / 2) - 1;
-    let middleIndex2 = Math.ceil(data.length / 2) - 1;
-
+    // Highlight the first and second elements with red dots
     svg.append("circle")
-        .attr("cx", getPathCoordinates(data)[middleIndex1].x)
-        .attr("cy", getPathCoordinates(data)[middleIndex1].y)
+        .attr("cx", getPathCoordinates(data)[0].x)
+        .attr("cy", getPathCoordinates(data)[0].y)
         .attr("r", 5)
         .attr("fill", "red");
 
     svg.append("circle")
-        .attr("cx", getPathCoordinates(data)[middleIndex2].x)
-        .attr("cy", getPathCoordinates(data)[middleIndex2].y)
+        .attr("cx", getPathCoordinates(data)[1].x)
+        .attr("cy", getPathCoordinates(data)[1].y)
         .attr("r", 5)
         .attr("fill", "red");
 
