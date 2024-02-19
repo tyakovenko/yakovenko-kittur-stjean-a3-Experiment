@@ -62,7 +62,8 @@ function loadOneFile (fileNum){
             .attr("x", function(d) { return x(d.label); })
             .attr("width", x.bandwidth())
             .attr("y", function(d) { return y(d.value); })
-            .attr("height", function(d) { return height - y(d.value); });
+            .attr("height", function(d) { return height - y(d.value); })
+            .style("fill", "lightblue");
 
         // Filter data for dots at the bottom of the first and second bars
         var dotsData = [
