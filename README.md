@@ -6,6 +6,7 @@
 
 # Design Acheivements
 - modifications to the basic visualization types to fit the experiment needs
+- front end for the project https://github.com/m-saint/study.git
 
 # Contributions
 - Taya: analysis, write up, bar chart code, generated all viz, recuruit participants + collect data
