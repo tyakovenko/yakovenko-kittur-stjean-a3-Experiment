@@ -29,13 +29,13 @@ The bars are outlined in dark blue and coloured with light blue. The red dots in
 - The number scale on the left makes it easier to make educated quantitative guesses
 
 ### Radar Charts
-The radar charts were of the following format (radarChart/charts/r1.png). See the radarChart/charts folder for the graphic representations of all of the charts used. 
+The radar charts were of the following format ![radar chart](radarChart/charts/r1.png). See the radarChart/charts folder for the graphic representations of all of the charts used. 
 The radar chart contains the number scale in the  middle similar to that of the bar charts above. The data points for comparisson are labeled with a red dot. The overall area is coloured in light orange. All of these additions to the chart were made to test the following hypothesis:
 - The low contrast between the area colour (orange) and the dots (red) makes it more difficult to find an accurate percent difference
 - The number scale makes it easier to make an educated guess about the percent difference
   
 ### Donut Charts
-The donut charts were of the following format (donutChart/charts/n1.png). See the donutChart/charts folder for the graphic representations of all of the charts used. 
+The donut charts were of the following format ![donut chart](donutChart/charts/n1.png). See the donutChart/charts folder for the graphic representations of all of the charts used. 
 The donut charts were not labeled in any way, in contrast to the two visualizations above, other than the default colour labels for each section representing each number in an individual dataset. The donut chart was not labeled with red dots to indicate which values are to be compared. Instead, the participants were asked the comparisson questions in the following format: "What is the percent difference between the BLUE and PINK sections?". The coloured sections next to one another varied in contrast and surface area based on the values provided. All of these additions to the chart were made to test the following hypothesis:
 - Lack of labels makes it more difficult to accurately guess the percent difference
 - Each data point having its own colour is distracting and thus makes it more difficult to make an educated guess
@@ -55,18 +55,19 @@ All the results are located under analysis folder. The analysis.py is the detail
 The errors for each of the three types of visualizations are as follows. The errors were calculated using the formula provided in the original paper. Moreover, each of the results was compared based on calculating the average error for each sample of each visualion and graphing those points against the standard deviation of the dataset represented. 
 
 The average error for the bar plot visualization was 4.843618569048888.
+
 The average error for the radius plot visualization was 4.996302450444299.
+
 The average error for the radius plot visualization was 5.705429116964277.
 
-The errors for the bar plots in relation to each data set represented (analysis/imgs/barPlotErrors.png).
-
+The errors for the bar plots in relation to each data set represented ![bar chart errors](analysis/imgs/barPlotErrors.png).
 
 As indicated by the line of best fit, higher standard deviation of a dataset results in larger errors. Although the slope is reltively low, indicating a weaker relathionship between standard deviation of a data set and errors made. Notice that the plot has one outlier which is most likely due to errors in reponses. 
 
-The errors for the radius plots in relation to each data set represented (analysis/imgs/radiusPlotErrors.png).
+The errors for the radius plots in relation to each data set represented ![radius chart errors](analysis/imgs/radiusPlotErrors.png).
 Similar to the bar plot above, we see a positive correlation between standard deviation and error. In comparisson to the bar chart, we have a high slope indicating a stronger relathionship between the two variables. Similarly to above, we have one outlier likely due to errors in reponses.
 
-The errors for the donut plots in relation to each data set represented (analysis/imgs/donutErrors.png).
+The errors for the donut plots in relation to each data set represented ![donut chart errors](analysis/imgs/donutErrors.png).
 Similar to the two plots above, we have a strong positive correlation between the standard deviation of a data set and error. However, the errors for the donut plot are a lot more distributed than the ones for bar and radar plots. We have a few more outliers likely indicating that reponse errors were more prominent due to the visualization type. 
 
 Overall, the errors were high across every type of visualization (see qualitative results section for potential explanations). However, the patterns displayed in the three graphs above confirm the hypothesis that bar charts are the overall best way to represent simple numerical data with the radius chart being a close second.
