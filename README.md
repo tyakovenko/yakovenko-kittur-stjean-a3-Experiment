@@ -23,7 +23,7 @@ The participants were asked the questions in the following format: "What is the 
 Below are some important details on implementation of each of the visualization types which affected the outcomes of the experiment. All the charts were generated using the same data sets as mentioned above. For example, bar plot 1, radar plot 1, and donut plot 1 are all based on the same data set and so on. The consistency in using the same data sets for each individual visualization type allows for more meaningful error comparissons at the end of the experiment. The values for comparisson were always the first two values of a given dataset.
 
 ### Bar Charts
-The bar charts were of the following format (barChart/charts/b1.png). See the barChart/charts folder for the graphic representations of all of the charts used. 
+The bar charts were of the following format ![bar chart](barChart/charts/b1.png). See the barChart/charts folder for the graphic representations of all of the charts used. 
 The bars are outlined in dark blue and coloured with light blue. The red dots indicate the two bars which the trial participants needed to compare. The bars are spaced evenly with small gaps in between. The chart also contains a scale on the left hand side. All of these additions to the chart were made to test the following hypothesis:
 - The high contrast of blue and red results in more accurate percent difference guesses
 - The number scale on the left makes it easier to make educated quantitative guesses
