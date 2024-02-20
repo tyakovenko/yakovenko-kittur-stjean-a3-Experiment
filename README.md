@@ -10,7 +10,7 @@
 
 # Contributions
 - Taya: analysis, write up, bar chart code, generated all viz, recuruit participants + collect data
-- Myles:
+- Myles: ReVISit study + Firebase, radar chart code
 - Ash:
 
 # Experiment Details
