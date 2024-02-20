@@ -8,7 +8,7 @@
 - modifications to the basic visualization types to fit the experiment needs
 
 # Contributions
-- Taya: analysis, write up, bar chart
+- Taya: analysis, write up, bar chart code, generated all viz, recuruit participants + collect data
 - Myles:
 - Ash:
 
