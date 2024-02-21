@@ -11,7 +11,7 @@
 # Contributions
 - Taya: analysis, write up, bar chart code, generated all viz, recuruit participants + collect data
 - Myles: ReVISit study + Firebase, radar chart code
-- Ash:
+- Ash: Created donut visualizations, assisted with logistics
 
 # Experiment Details
 We ran the experiment using three types of visualizations: bar chart, radar chart, and donut chart. We chose the bar chart since it is the most common way to represent simple numbers and relathionships between them. Moreover, the original experiment used a bar chart and it would've been interesting to see how our results compare to those in the paper. We chose a radar chart since it is a fairly unconventional way to represent a simple array of numbers and it would be interesting to see how the accuracy measured compared to that of a bar chart. The donut chart is perhaps the most unconventional of the ways to represent our data and we thought it would be interesting to see if it all the sections might make it easier for the participants to see the percentages. 
